@@ -15,7 +15,16 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.conf.urls import url, include
+from UPortalApp import views
+from rest_framework import routers
+
+router = routers.DefaultRouter()
+router.register(r'authors', views.AuthorViewSet)
+# router.register(r'groups', views.GroupViewSet)
 
 urlpatterns = [
+    url('aut/', views.AuthorViewSet),
     path('admin/', admin.site.urls),
 ]
+urlpatterns += router.urls

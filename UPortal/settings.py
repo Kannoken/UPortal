@@ -37,7 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'UPortalApp.apps.UportalappConfig',
+    # 'UPortalApp.apps.UportalappConfig',
+    'UPortalApp',
+    'rest_framework',
+
 ]
 
 MIDDLEWARE = [
