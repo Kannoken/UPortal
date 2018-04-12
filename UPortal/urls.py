@@ -23,8 +23,11 @@ router = routers.DefaultRouter()
 router.register(r'authors', views.AuthorViewSet)
 # router.register(r'groups', views.GroupViewSet)
 
+
 urlpatterns = [
-    url('aut/', views.AuthorViewSet),
+    path('aut/', views.AuthorViewSet),
     path('admin/', admin.site.urls),
+    path('', views.main)
+
 ]
 urlpatterns += router.urls

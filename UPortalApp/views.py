@@ -2,6 +2,11 @@ from django.shortcuts import render
 from rest_framework import viewsets
 from UPortalApp.serializer import *
 from UPortalApp.models import *
+from django.shortcuts import render
+
+def main(request):
+
+    return render(request, 'index.html')
 
 # Create your views here.
 
