@@ -1,59 +1,11 @@
-.navbar {
-    background-color: azure;
-    /*right: 0;*/
-    /*overflow:auto;*/
-        overflow: hidden
 
-
-}
-
-ul {
-       /*float:left;*/
-    position: absolute;
-
-    /*position: relative;*/
-    /*float: left;*/
-    display: block;
-    left: 100px;
-    list-style: none;
+.container-fluid{
     margin: 0;
-    /*padding-left: 0;*/
+    padding: 0;
 }
-a:hover{
-     text-decoration: none;
+.form-inline .form-control{
+    width: 450px;
 }
-a {
-    text-decoration: none; /*убираем подчеркивание текста ссылок*/
-}
-
-li {
-    display: inline-block;
-}
-#imaginary_container{
-    width: 300px;
-    height: 50px;
-    padding: 10px;
-}
-.stylish-input-group .input-group-addon{
-    background: white !important;
-
-}
-.stylish-input-group .form-control{
-	border-right:0;
-	box-shadow:0 0 0;
-	border-color:#ccc;
-}
-.stylish-input-group button{
-    border:0;
-    background:transparent;
-}
-.dropdown{
-    position: relative;
-    top: -15px;
-     /*width: 300px;*/
-    /*height: 50px;*/
-    /*padding: 10px;*/
-}
-/*button{*/
-/*color: blue;*/
-/*}*/
+/*.user{*/
+/*float: right;*/
+/*padding: 0; }*/
